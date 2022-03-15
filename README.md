@@ -16,6 +16,38 @@ Following a [GitHub tutorial](https://docs.github.com/en/get-started/quickstart/
 
 
 ## _Forking_  
-A **fork** is a copy of an entire repository, allowing you to make your own changes without affecting the original. Two ways to use forking: 1) use someone else's project as a starting point for your own or 2) propose changes to the original project. Once you fork the original repo, you then must clone it to get the files in that repo to your local computer (otherwise it just exists on GitHub). 
+A **fork** is a copy of an entire repository, allowing you to make your own changes without affecting the original. Two ways to use forking: 1) use someone else's project as a starting point for your own or 2) propose changes to the original project. Once you fork the original repo, you then must clone it to get the files in that repo to your local computer (otherwise it just exists on GitHub).  
+  
+See forking practice [here](https://github.com/kyut0/Spoon-Knife).  
 
-See forking practice [here](https://github.com/kyut0/Spoon-Knife).
+
+## _Git Basics_  
+Basic Git commands to know (from [this](https://training.github.com/downloads/github-git-cheat-sheet.pdf) cheatsheet):  
+
+### Branches
+**$ git status**  
+See what branch you currently have "checked out"  
+**$ git branch [branch-name]**  
+Creates a new branch  
+**$ git checkout [branch-name]**  
+Switches to the specified branch and updates the working directory  
+**$ git merge [branch]**  
+Combines the specified branch’s history into the current branch. This is usually done in pull requests, but is an important Git operation.  
+**$ git branch -d [branch-name]**  
+Deletes the specified branch  
+  
+### Create repositories  
+**$ git init**  
+Turn an existing directory into a git repository  
+**$ git clone [url]**  
+Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits  
+
+### Synchronize changes
+**$ git fetch**  
+Downloads all history from the remote tracking branches  
+**$ git merge**  
+Combines remote tracking branch into current local branch  
+**$ git push**  
+Uploads all local branch commits to GitHub  
+**$ git pull**  
+Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. 'git pull' is a combination of 'git fetch' and 'git merge'  
