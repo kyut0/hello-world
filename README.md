@@ -51,3 +51,17 @@ Combines remote tracking branch into current local branch
 Uploads all local branch commits to GitHub  
 **$ git pull**  
 Updates your current local working branch with all new commits from the corresponding remote branch on GitHub. 'git pull' is a combination of 'git fetch' and 'git merge'  
+
+### Make changes  
+**$ git add [file]**  
+Snapshots the file in preparation for versioning. 'git add .' stages all of your changes  
+**$ git commit -m "[descriptive message]"**  
+Makes commit (i.e., Records file snapshots permanently in version history)  
+**$ git log**  
+Lists version history for the current branch  
+**$ git log --follow [file]**  
+Lists version history for a file, including renames  
+**$ git diff [first-branch]...[second-branch]**  
+Shows content differences between two branches  
+**$ git show [commit]**  
+Outputs metadata and content changes of the specified commit  
