@@ -17,3 +17,5 @@ Following a [GitHub tutorial](https://docs.github.com/en/get-started/quickstart/
 
 ## _Forking_  
 A **fork** is a copy of an entire repository, allowing you to make your own changes without affecting the original. Two ways to use forking: 1) use someone else's project as a starting point for your own or 2) propose changes to the original project. Once you fork the original repo, you then must clone it to get the files in that repo to your local computer (otherwise it just exists on GitHub). 
+
+See forking practice [here](https://github.com/kyut0/Spoon-Knife).
