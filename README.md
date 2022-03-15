@@ -4,3 +4,5 @@ Following a GitHub tutorial to learn the basics. https://docs.github.com/en/get-
 Making some changes to the README file in the "readme-edits" branch of main. Saved changes are called **commits**. Each commit has an associated message, a short description describing the changes that were made. These commit messages capture the history of the edits that were made. 
 
 A **branch** is a copy/snapshot of main. You can make and save edits without changing the original. Once the edits are finalized, you can merge the two branches back together. To do this, you open a **pull request**, which proposes your branch changes to be applied to the original. Pull requests show diffs (differences) between the two branches. 
+
+After submitting a pull request, the changes need to be **merged**. After merging, the edits from your branch will be incorporated into main. The last step after confirming the merge is to delete the branch, since it is now identical to main. 
